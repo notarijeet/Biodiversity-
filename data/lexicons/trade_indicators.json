@@ -1,0 +1,38 @@
+{
+  "suspicious_indicators": [
+    {
+      "trigger": ["dm for price", "pm for price", "dm me", "inbox me", "contact whatsapp", "telegram"],
+      "label": "Private Messaging / Off-Platform Solicitation",
+      "severity": "high",
+      "desc": "Diverts buyers from public moderation to encrypted private chat channels."
+    },
+    {
+      "trigger": ["discreet shipping", "door delivery", "worldwide delivery", "air courier", "safe arrival guarantee"],
+      "label": "Evasive Courier Logistics",
+      "severity": "high",
+      "desc": "Offers international delivery of live or restricted wildlife without legal quarantine permits."
+    },
+    {
+      "trigger": ["fresh stock", "wholesale", "dry scales", "bulk orders", "per kg", "kilos available"],
+      "label": "Commercial Bulk Scale Trade",
+      "severity": "high",
+      "desc": "Commercial quantities indicating syndicated illicit supply chains."
+    },
+    {
+      "trigger": ["no papers", "without permits", "adoption fee", "adoption"],
+      "label": "Permit Evasion or Disguised Commercial Sale",
+      "severity": "medium",
+      "desc": "Avoiding CITES documentation or masking sales as private pet adoptions."
+    },
+    {
+      "trigger": ["carved white bone", "natural grain", "antique bone"],
+      "label": "Ivory Code-Word Obfuscation",
+      "severity": "high",
+      "desc": "Common disguised terminology used to bypass algorithmic filters for elephant ivory."
+    }
+  ],
+  "benign_indicators": [
+    "national park", "ranger", "sanctuary", "camera trap", "field research", "conservation",
+    "ecotourism", "guided tour", "wildlife rescue", "rehabilitation", "iucn", "wwf", "cites"
+  ]
+}

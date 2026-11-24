@@ -1,0 +1,98 @@
+{
+  "hathajodi": {
+    "species": "Indian Monitor Lizard (Hemipenis sold as sacred root)",
+    "scientific": "Varanus bengalensis",
+    "language": "Hindi / Hinglish",
+    "cites": "Appendix I",
+    "wpa_schedule": "Schedule I",
+    "meaning_desc": "Dried monitor lizard hemipenis fraudulently marketed as a holy root (Hatha Jodi) for wealth and tantric rituals."
+  },
+  "khurpa": {
+    "species": "Indian Pangolin (Scales)",
+    "scientific": "Manis crassicaudata",
+    "language": "Hindi / Hinglish slang",
+    "cites": "Appendix I",
+    "wpa_schedule": "Schedule I",
+    "meaning_desc": "Slang for pangolin scales resembling a small agricultural trowel (khurpa)."
+  },
+  "chhilka": {
+    "species": "Indian / Chinese Pangolin (Scales)",
+    "scientific": "Manis crassicaudata / Manis pentadactyla",
+    "language": "Hindi",
+    "cites": "Appendix I",
+    "wpa_schedule": "Schedule I",
+    "meaning_desc": "Codeword literally meaning 'peels' or 'husk', referring to detached keratin scales."
+  },
+  "safed sona": {
+    "species": "Asian / African Elephant (Ivory)",
+    "scientific": "Elephas maximus / Loxodonta africana",
+    "language": "Hindi",
+    "cites": "Appendix I",
+    "wpa_schedule": "Schedule I",
+    "meaning_desc": "Literally 'white gold', clandestine marketplace term for elephant tusks and ivory carvings."
+  },
+  "kasturi": {
+    "species": "Himalayan Musk Deer (Musk Pod)",
+    "scientific": "Moschus chrysogaster",
+    "language": "Hindi / Sanskrit",
+    "cites": "Appendix I",
+    "wpa_schedule": "Schedule I",
+    "meaning_desc": "Glandular secretion pods harvested from male musk deer for perfumery and traditional medicine."
+  },
+  "shahtoosh": {
+    "species": "Tibetan Antelope / Chiru (Underfur wool)",
+    "scientific": "Pantholops hodgsonii",
+    "language": "Persian / Hindi / Urdu",
+    "cites": "Appendix I",
+    "wpa_schedule": "Schedule I",
+    "meaning_desc": "Literally 'king of fine wools', made from the fleece of slaughtered wild chiru antelopes."
+  },
+  "siyar singhi": {
+    "species": "Golden Jackal (Skull horn growth / skin charm)",
+    "scientific": "Canis aureus",
+    "language": "Hindi / Hinglish",
+    "cites": "Appendix III",
+    "wpa_schedule": "Schedule I",
+    "meaning_desc": "Deceptive tantric charm made from jackal skull bone and tuft of hair sold to ward off evil."
+  },
+  "billi ka nal": {
+    "species": "Jungle Cat / Wild Cat (Umbilical cord / placenta)",
+    "scientific": "Felis chaus",
+    "language": "Hindi",
+    "cites": "Appendix II",
+    "wpa_schedule": "Schedule I",
+    "meaning_desc": "Dried wild cat umbilical cord marketed as an auspicious charm for childbirth and prosperity."
+  },
+  "rakta chandan": {
+    "species": "Red Sanders / Red Sandalwood",
+    "scientific": "Pterocarpus santalinus",
+    "language": "Hindi / Sanskrit",
+    "cites": "Appendix II",
+    "wpa_schedule": "Schedule I",
+    "meaning_desc": "Endemic precious hardwood targeted for massive illegal logging and smuggling across international borders."
+  },
+  "tara kachhua": {
+    "species": "Indian Star Tortoise",
+    "scientific": "Geochelone elegans",
+    "language": "Hindi",
+    "cites": "Appendix I",
+    "wpa_schedule": "Schedule I",
+    "meaning_desc": "Targeted heavily for exotic pet syndicates and feng-shui beliefs in Southeast Asia."
+  },
+  "sher nakh": {
+    "species": "Bengal Tiger (Canines / Claws)",
+    "scientific": "Panthera tigris",
+    "language": "Hindi",
+    "cites": "Appendix I",
+    "wpa_schedule": "Schedule I",
+    "meaning_desc": "Tiger claws and canines encased in gold amulets or charms."
+  },
+  "kadalu kukke": {
+    "species": "Sea Cucumber",
+    "scientific": "Holothuroidea sp.",
+    "language": "Kannada / Tamil / Hindi",
+    "cites": "Appendix II",
+    "wpa_schedule": "Schedule I",
+    "meaning_desc": "Marine invertebrate harvested illegally in Gulf of Mannar for dried trepang export."
+  }
+}

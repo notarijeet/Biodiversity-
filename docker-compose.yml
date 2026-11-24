@@ -1,0 +1,50 @@
+# docker-compose.yml — IWT Detection System (Phase 2 offline demo)
+#
+# Usage:
+#   docker compose up --build          # first run
+#   docker compose up                  # subsequent runs (uses cached image)
+#   docker compose down                # stop and remove containers
+#
+# The frontend dev server (Vite, port 5173) is NOT managed here — run it
+# separately with:  npm run dev
+#
+# Data volumes: the host directories are mounted read-write so the API can
+# read lexicons and the trained TF-IDF model, and write the SQLite DB file.
+
+services:
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+      target: runtime
+    image: iwt-api:latest
+    container_name: iwt_api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      # Lexicons and processed models (read-only inside container)
+      - ./data/lexicons:/data/lexicons:ro
+      - ./data/processed:/data/processed:ro
+      # Checkpoints (read-only; write-access only needed during training)
+      - ./backend/models/checkpoints:/app/models/checkpoints:ro
+      # SQLite database file (writable; file created on first run if absent)
+      - ./backend/wildlife_cases.db:/app/wildlife_cases.db
+    environment:
+      # Force CPU inference for the demo (no GPU inside Docker)
+      - DEVICE=cpu
+      # SQLite default; switch to postgresql://user:pw@host/db for production
+      - DATABASE_URL=sqlite:////app/wildlife_cases.db
+      # Allow the local Vite frontend to reach the API (CORS)
+      - FRONTEND_ORIGIN=http://localhost:5173
+      # Leave blank unless running the optional Gemini demo enrichment
+      - GEMINI_API_KEY=
+      # Paths that override config defaults inside the container
+      # (the config.py REPO_DIR logic is replaced by explicit volume mounts)
+      - DATA_DIR=/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s

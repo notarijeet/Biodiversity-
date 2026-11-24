@@ -1,0 +1,17 @@
+[
+  "id",
+  "submissionDate",
+  "inputType",
+  "inputSource",
+  "prediction",
+  "confidenceScore",
+  "identifiedSpecies",
+  "extractedText",
+  "suspiciousKeywords",
+  "suspiciousIndicators",
+  "explanation",
+  "analysisStatus",
+  "threatSeverity",
+  "imageUrl",
+  "isSample"
+]

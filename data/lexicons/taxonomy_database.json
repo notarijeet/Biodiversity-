@@ -1,0 +1,65 @@
+[
+  {
+    "commonName": "Sunda Pangolin / African Pangolin (Scales & Meat)",
+    "scientificName": "Manis javanica / Phataginus sp.",
+    "citesStatus": "CITES Appendix I (Zero commercial international trade)",
+    "conservationStatus": "Critically Endangered",
+    "keywords": ["pangolin", "scales", "manis", "ant-eater", "pangolin scales", "dry scales"]
+  },
+  {
+    "commonName": "African Savannah Elephant (Raw or Carved Ivory)",
+    "scientificName": "Loxodonta africana",
+    "citesStatus": "CITES Appendix I",
+    "conservationStatus": "Endangered",
+    "keywords": ["ivory", "tusks", "elephant", "carved bone", "white jade", "schreger", "tusk"]
+  },
+  {
+    "commonName": "Tiger (Bone, Skins, Wine, Canines)",
+    "scientificName": "Panthera tigris",
+    "citesStatus": "CITES Appendix I",
+    "conservationStatus": "Endangered",
+    "keywords": ["tiger", "tiger bone", "tiger skin", "canine tooth", "tiger wine", "panthera"]
+  },
+  {
+    "commonName": "Radiated Tortoise / Ploughshare Tortoise",
+    "scientificName": "Astrochelys radiata / A. yniphora",
+    "citesStatus": "CITES Appendix I",
+    "conservationStatus": "Critically Endangered",
+    "keywords": ["radiated tortoise", "ploughshare", "star tortoise", "astrochelys", "malagasy tortoise"]
+  },
+  {
+    "commonName": "Slow Loris (Pet Trade)",
+    "scientificName": "Nycticebus sp.",
+    "citesStatus": "CITES Appendix I",
+    "conservationStatus": "Endangered",
+    "keywords": ["slow loris", "loris", "pygmy loris", "cute primate", "baby monkey"]
+  },
+  {
+    "commonName": "Helmeted Hornbill (Casque / Red Ivory)",
+    "scientificName": "Rhinoplax vigil",
+    "citesStatus": "CITES Appendix I",
+    "conservationStatus": "Critically Endangered",
+    "keywords": ["hornbill", "casque", "red ivory", "rhinoplax", "solid head"]
+  },
+  {
+    "commonName": "White / Black Rhinoceros (Horn & Carvings)",
+    "scientificName": "Ceratotherium simum / Diceros bicornis",
+    "citesStatus": "CITES Appendix I",
+    "conservationStatus": "Critically Endangered / Near Threatened",
+    "keywords": ["rhino", "rhino horn", "rhinoceros", "horn cup", "keratin horn"]
+  },
+  {
+    "commonName": "Totoaba (Swim Bladders / Fish Maw)",
+    "scientificName": "Totoaba macdonaldi",
+    "citesStatus": "CITES Appendix I",
+    "conservationStatus": "Vulnerable",
+    "keywords": ["totoaba", "swim bladder", "fish maw", "aquatic cocaine"]
+  },
+  {
+    "commonName": "Exotic Parrots & Macaws (Lear’s, Spix’s, Scarlet)",
+    "scientificName": "Psittacidae sp.",
+    "citesStatus": "CITES Appendix I / II",
+    "conservationStatus": "Endangered / Vulnerable",
+    "keywords": ["macaw", "parrot", "cockatoo", "hyacinth", "amazona", "fertile eggs"]
+  }
+]
